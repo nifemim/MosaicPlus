@@ -88,7 +88,7 @@
                 <div class="col-lg-12">
                     <div class="intro-message">
                         <img src="img/mosaicplus.png" alt="logo">
-                        <h3>"Inspiring a Community"</h3>
+                        <h3 class="element"></h3>
                         <hr class="intro-divider">
                         <ul class="list-inline intro-social-buttons">
                             <li>
@@ -121,7 +121,7 @@
                 <div class="col-lg-5 col-sm-6">
                     <div class="clearfix"></div>
                     <a class="link link--yaku" href="#">
-                    	<span>M</span><span>O</span><span>S</span><span>A</span><span>I</span><span>C</span><span>+</span>
+                    	<span>D</span><span>E</span><span>F</span><span>I</span><span>N</span><span>E</span><span>D</span>
                     </a>
                     <p class="lead">we strive to foster a sense of community for marginalized and underrepresented minority students within the computer science department. In particular, we hope to see more minorities and female students introduced to computer science at Brown through a community they can easily relate to and learn from. Our multi-faceted approach to tackling this problem will begin with the launch of a summer pre-orientation transition program for newly admitted URM students.</p>
                 </div>
@@ -391,6 +391,17 @@
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
+    <script src="typed.js-master/js/typed.js"></script>
+    <script>
+	$(function(){
+		$(".element").typed({
+			strings: ["'Inspiring a Community'", "'Inspiring a Generation'" , " MOSAIC+"],
+			typeSpeed: 30,
+			backDelay: 500,
+		});
+	});
+	</script>
+    
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
