@@ -78,7 +78,6 @@
         <!-- /.container -->
     </nav>
 
-
     <!-- Header -->
     <a name="Home"></a>
     <div class="intro-header">
@@ -112,7 +111,6 @@
     <!-- /.intro-header -->
 
     <!-- Page Content -->
-
 	<a  name="mission"></a>
     <div class="content-section-a">
 
@@ -135,7 +133,8 @@
 
     </div>
     <!-- /.content-section-a -->
-
+	
+    <a name="program"></a>
     <div class="content-section-b">
 
         <div class="container">
@@ -388,21 +387,35 @@
             </div>
         </div>
     </footer>
-
+    
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
     <script src="typed.js-master/js/typed.js"></script>
-    <script>
-	$(function(){
-		$(".element").typed({
-			strings: ["'Inspiring a Community'", "'Inspiring a Generation'" , " MOSAIC+"],
-			typeSpeed: 30,
-			backDelay: 500,
-		});
-	});
-	</script>
     
-
+    <!-- script for the typer -->
+    <script>
+		(function(){
+	  "use strict";
+	
+	  $(document).ready(function() {
+		$(".element").typed({
+		  strings: ["'Inspiring a Community'", "'Inspiring a Generation'" , " MOSAIC+"],
+		  typeSpeed: 80,
+		  backSpeed: 70,
+		  startDelay: 0,
+		  backDelay: 1500,
+		  loop: true,
+		  callback: function() {
+			setTimeout(function() {
+			  $('.typed-cursor').css('visibility', 'shown');
+			}, 1200);
+		  }
+		});
+	  });
+	
+	}());
+		</script>
+    
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
