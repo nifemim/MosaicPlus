@@ -202,3 +202,23 @@ footer {
 p.copyright {
     margin: 15px 0 0;
 }
+
+.element{
+	float:left;
+	width:940px;
+	height:54px;
+	padding-bottom:60px;
+	}
+
+.element {
+  font-family: 'Lato', sans-serif;
+  text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+  font-weight: 300;
+  color: #000000;
+  font-size: 50px;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  }
+  

@@ -87,7 +87,7 @@
                 <div class="col-lg-12">
                     <div class="intro-message">
                         <img src="img/mosaicplus.png" alt="logo">
-                        <h3 class="element"></h3>
+                        <span class="element"></span>                   
                         <hr class="intro-divider">
                         <ul class="list-inline intro-social-buttons">
                             <li>
@@ -399,12 +399,12 @@
 	
 	  $(document).ready(function() {
 		$(".element").typed({
-		  strings: ["'Inspiring a Community'", "'Inspiring a Generation'" , " MOSAIC+"],
+		  strings: ["'Inspiring a Community'", "'Inspiring a Generation'" , "MOSAIC+"],
 		  typeSpeed: 80,
 		  backSpeed: 70,
 		  startDelay: 0,
 		  backDelay: 1500,
-		  loop: true,
+		  loop: false,
 		  callback: function() {
 			setTimeout(function() {
 			  $('.typed-cursor').css('visibility', 'shown');
