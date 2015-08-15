@@ -2,258 +2,416 @@
 <html lang="en">
 
 <head>
+	<!-- Basic Page Needs
+    ================================================== -->
+	<meta charset="utf-8">
+	<!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>MOSAIC+</title>
+	<meta name="description" content="Spirit8 is a Digital agency one page template built based on bootstrap framework. This template is design by Robert Berki and coded by Jenn Pereira. It is simple, mobile responsive, perfect for portfolio and agency websites. Get this for free exclusively at ThemeForces.com">
+	<meta name="keywords" content="bootstrap theme, portfolio template, digital agency, onepage, mobile responsive, spirit8, free website, free theme, themeforces themes, themeforces wordpress themes, themeforces bootstrap theme">
+	<meta name="author" content="ThemeForces.com">
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-	
-    <title>Mosaic+</title>
-    
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-    <script src="typed.js-master/js/typed.js"></script>
-    
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-    
-    <!-- RactiveJS -->
-    <script src="js/ractive/0.4.0/ractive.min.js"></script>
-    
-    <!--   Scripts -->
-    <script src="resources/team.json"></script>
-    <script src="js/main.js"></script>
+	<!-- Favicons
+    ================================================== -->
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
 
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<!-- Bootstrap -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
 
-    <!-- Custom CSS -->
-    <link href="css/landing-page.css" rel="stylesheet">
-    <link href="css/ihover.css" rel="stylesheet">
-    <link href="css/ihover.css" rel="stylesheet">
-    <link href="TextStylesHoverEffects/css/linkstyles.css">
-    <link href="TextStylesHoverEffects/css/normalize.css">
-    <link href="TextStylesHoverEffects/css/linkstyles.css" rel="stylesheet" type="text/css">
+	<!-- Slider
+    ================================================== -->
+	<link href="css/owl.carousel.css" rel="stylesheet" media="screen">
+	<link href="css/owl.theme.css" rel="stylesheet" media="screen">
 
-    <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" type="text/css">
+	<!-- Stylesheet
+    ================================================== -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400' rel='stylesheet' type='text/css'>
+
+	<script type="text/javascript" src="js/modernizr.custom.js"></script>
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.1.11.1.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/SmoothScroll.js"></script>
+	<script type="text/javascript" src="js/jquery.isotope.js"></script>
+
+	<script src="js/owl.carousel.js"></script>
+
+	<!--  JSON Data -->
+	<script src="resources/team.json"></script>
+
+	<!-- Javascripts
+    ================================================== -->
+	<script type="text/javascript" src="js/main.js"></script>
+
+	<!-- RactiveJS -->
+	<script src="js/ractive/0.4.0/ractive.min.js"></script>
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-
 </head>
 
 <body>
+	<!-- Navigation
+    ==========================================-->
+	<nav id="tf-menu" class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="index.html">Mosaic+</a>
+			</div>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
-        <div class="container topnav">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand topnav" href="#">MOSAIC+</a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="#Home">Home</a>
-                    </li>
-                    <li>
-                        <a href="#mission">Mission</a>
-                    </li>
-                    <li>
-                        <a href="#program">Transition Program</a>
-                    </li>
-                    
-                    <li>
-                        <a href="#team">Team</a>
-                    </li>
-                    
-                    <li>
-                        <a href="#contact">Contact Info</a>
-                    </li>
-                    
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#tf-home" class="page-scroll">Home</a></li>
+					<li><a href="#tf-about" class="page-scroll">About</a></li>
+					<li><a href="#tf-team" class="page-scroll">Team</a></li>
+					<li><a href="#tf-services" class="page-scroll">Transition Progrtam</a></li>
+					<li><a href="#tf-works" class="page-scroll">Projects</a></li>
+					<li><a href="#tf-testimonials" class="page-scroll">News</a></li>
+					<li><a href="#tf-contact" class="page-scroll">Contact</a></li>
+				</ul>
+			</div>
+			<!-- /.navbar-collapse -->
+		</div>
+		<!-- /.container-fluid -->
+	</nav>
 
-    <!-- Header -->
-    <a name="Home"></a>
-    <div class="intro-header">
-        <div class="container">
+	<!-- Home Page
+    ==========================================-->
+	<div id="tf-home" class="text-center">
+		<div class="overlay">
+			<div class="content">
+				<img src="img/logo.png">
+				<p class="lead">Inspiring a <strong>community.</strong> Inspiring a <strong>generation</strong></p>
+				<a href="#tf-about" class="fa fa-angle-down page-scroll"></a>
+			</div>
+		</div>
+	</div>
 
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="intro-message">
-                        <img src="img/mosaicplus.png" alt="logo">
-                        <span class="element"></span>                   
-                        <hr class="intro-divider">
-                        <ul class="list-inline intro-social-buttons">
-                            <li>
-                                <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                            </li>
-                            <li>
-                                <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+	<!-- About Us Page
+    ==========================================-->
+	<div id="tf-about">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<img src="img/brown_1.png" class="img-responsive">
+				</div>
+				<div class="col-md-6">
+					<div class="about-text">
+						<div class="section-title">
+							<h2>Mosaic+ <strong>Defined</strong></h2>
+							<hr>
+							<div class="clearfix"></div>
+						</div>
+						<p class="intro">We strive to foster a sense of community for marginalized and underrepresented minority students within the computer science department. In particular, we hope to see more minorities and female students introduced to computer science at Brown through a community they can easily relate to and learn from. Our multi-faceted approach to tackling this problem will begin with the launch of a summer pre-orientation transition program for newly admitted URM students.</p>
+						<ul class="about-list">
+							<li>
+								<span class="fa fa-dot-circle-o"></span>
+								<strong>Mission</strong> - <em>To create a community </em>
+							</li>
+							<li>
+								<span class="fa fa-dot-circle-o"></span>
+								<strong>Skills</strong> - <em>Write something empowering</em>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<a href="#tf-team" class="fa fa-angle-down page-scroll"></a>
+	</div>
 
-        </div>
-        <!-- /.container -->
+	<!-- Team Page
+    ==========================================-->
+	<!-- ractive template: team-template   -->
+	<div id="tf-team" class="text-center"></div>
 
-    </div>
-    <!-- /.intro-header -->
+	<!-- Services Section
+    ==========================================-->
+	<div id="tf-services" class="text-center">
+		<div class="container">
+			<div class="section-title center">
+				<h2>Transition <strong>Program </strong></h2>
+				<div class="line">
+					<hr>
+				</div>
+				<div class="clearfix"></div>
+				<small><em>This is the section of the site where we will put information about the transition program. I am also going to put a link to the survival quide because that is a part of the transition program for different class years.</em></small>
+			</div>
+			<div class="space"></div>
+			<div class="row">
+				<div class="col-md-3 col-sm-6 service">
+					<i class="fa fa-book"></i>
+					<h4><strong>Survival Guide</strong></h4>
+					<p>This will link to the survival guide that we will edit throughout the years.</p>
+				</div>
 
-    <!-- Page Content -->
-	<a  name="mission"></a>
-    <div class="content-section-a">
+				<div class="col-md-3 col-sm-6 service">
+					<i class="fa fa-flash"></i>
+					<h4><strong>Transition Program</strong></h4>
+					<p>This will be a little information about the transition program and then this could link to something that has a pdf of the transition program for the parents/ student to look at </p>
+				</div>
 
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-sm-6">
-                    <div class="clearfix"></div>
-                    <a class="link link--yaku" href="#">
-                    	<span>D</span><span>E</span><span>F</span><span>I</span><span>N</span><span>E</span><span>D</span>
-                    </a>
-                    <p class="lead">we strive to foster a sense of community for marginalized and underrepresented minority students within the computer science department. In particular, we hope to see more minorities and female students introduced to computer science at Brown through a community they can easily relate to and learn from. Our multi-faceted approach to tackling this problem will begin with the launch of a summer pre-orientation transition program for newly admitted URM students.</p>
-                </div>
-                <div class="col-lg-offset-2 col-sm-6 col-lg-4">
-                    <img class="img-responsive" src="img/teaser_1.png" alt="">
-                </div>
-            </div>
+				<div class="col-md-3 col-sm-6 service">
+					<i class="fa fa-camera"></i>
+					<h4><strong>Photos</strong></h4>
+					<p>This can link to photos and videos taken throughout the school year at different events that we go to including but not limited to conferences.</p>
+				</div>
 
-        </div>
-        <!-- /.container -->
+				<div class="col-md-3 col-sm-6 service">
+					<i class="fa fa-bullhorn"></i>
+					<h4><strong>Something Else?</strong></h4>
+					<p> We could put another link here</p>
+				</div>
+			</div>
+			<a href="#tf-works" class="fa fa-angle-down page-scroll"></a>
+		</div>
+	</div>
 
-    </div>
-    <!-- /.content-section-a -->
-	
-    <a name="program"></a>
-    <div class="content-section-b">
+	<!-- Clients Section
+    ==========================================-->
+	<div id="tf-clients" class="text-center">
+		<div class="overlay">
+			<div class="container">
 
-        <div class="container">
+				<div class="section-title center">
+					<h2>Some of <strong>our Sponsors</strong></h2>
+					<div class="line">
+						<hr>
+					</div>
+				</div>
+				<div id="clients" class="owl-carousel owl-theme">
+					<div class="item">
+						<img src="img/client/01.png">
+					</div>
+					<div class="item">
+						<img src="img/client/02.png">
+					</div>
+					<div class="item">
+						<img src="img/client/03.png">
+					</div>
+					<div class="item">
+						<img src="img/client/04.png">
+					</div>
+					<div class="item">
+						<img src="img/client/05.png">
+					</div>
+					<div class="item">
+						<img src="img/client/06.png">
+					</div>
+					<div class="item">
+						<img src="img/client/07.png">
+					</div>
+				</div>
 
-            <div class="row">
-              <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">Transition<br>Program</h2>
-                    <p class="lead">Information about the transition program will be placed here. Right now I am trying to fill this empty void. The more words that I put in this section the better. There might even be a register button here for the website and maybe even a button that leads to a pdf containing information about the program.</p>
-                </div>
-                <div class="col-sm-pull-6  col-md-4 col-lg-5 col-sm-5">
-                    <img class="img-responsive" src="img/icons.png" alt="">
-                </div>
-            </div>
+			</div>
+			<a href="#tf-" class="fa fa-angle-down page-scroll"></a>
+		</div>
+	</div>
 
-        </div>
-        <!-- /.container -->
+	<!-- Portfolio Section
+    ==========================================-->
+	<!--  ractive template: portfolio-template  -->
+	<div id="tf-works"></div>
 
-    </div>
-    <!-- /.content-section-b -->
+	<!-- Testimonials Section
+    ==========================================-->
+	<div id="tf-testimonials" class="text-center">
+		<div class="overlay">
+			<div class="container">
+				<div class="section-title center">
+					<h2><strong>Computer Science</strong> Quotes</h2>
+					<div class="line">
+						<hr>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2">
+						<div id="testimonial" class="owl-carousel owl-theme">
+							<div class="item">
+								<h5>The rise of Google, the rise of Facebook, the rise of Apple, I think are proof that there is a place for computer science as something that solves problems that people face every day.</h5>
+								<p><strong>Eric Schmidt</strong>, Software Engineer.</p>
+							</div>
 
-    <div class="content-section-a">
+							<div class="item">
+								<h5>The rise of Google, the rise of Facebook, the rise of Apple, I think are proof that there is a place for computer science as something that solves problems that people face every day.</h5>
+								<p><strong>Eric Schmidt</strong>, Software Engineer.</p>
+							</div>
 
-        <div class="container">
+							<div class="item">
+								<h5>The rise of Google, the rise of Facebook, the rise of Apple, I think are proof that there is a place for computer science as something that solves problems that people face every day.</h5>
+								<p><strong>Eric Schmidt</strong>, Software Engineer.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<a href="#tf-contact" class="fa fa-angle-down page-scroll"></a>
+		</div>
+	</div>
 
-            <div class="row" id="team-container"></div>
-        <!-- /.container -->
-        </div>
-    </div>
-    <!-- /.content-section-a -->
+	<!-- Contact Section
+    ==========================================-->
+	<div id="tf-contact" class="text-center">
+		<div class="container">
 
-	<a  name="contact"></a>
-    <div class="banner">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2">
 
-        <div class="container">
+					<div class="section-title center">
+						<h2>Feel free to <strong>contact us</strong></h2>
+						<div class="line">
+							<hr>
+						</div>
+						<div class="clearfix"></div>
+						<small><em>I don't know if we want this section or not but it can be a way for people who have found this site can get into contact with us</em></small>
+					</div>
 
-            <div class="row">
-                <div class="col-lg-6">
-                    <h2>We look forward to hearing from you!</h2>
-                </div>
-                <div class="col-lg-6">
-                    <ul class="list-inline banner-social-buttons">
-                        <li>
-                            <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                        </li>
-                        <li>
-                            <a href="#" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+					<form>
+						<div class="row">
+							<div class="col-md-6">
+								<div class="form-group">
+									<label for="exampleInputEmail1">Email address</label>
+									<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+									<label for="exampleInputPassword1">Password</label>
+									<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+								</div>
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="exampleInputEmail1">Message</label>
+							<textarea class="form-control" rows="3"></textarea>
+						</div>
 
-        </div>
-        <!-- /.container -->
+						<button type="submit" class="btn tf-btn btn-default">Submit</button>
+					</form>
 
-    </div>
-    <!-- /.banner -->
+				</div>
+			</div>
+		</div>
+	</div>
 
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <ul class="list-inline">
-                        <li>
-                            <a href="#">Home</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                            <a href="#about">About</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                            <a href="#services">Services</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                            <a href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                    <p class="copyright text-muted small">Copyright &copy; Your Company 2014. All Rights Reserved</p>
-                </div>
-            </div>
-        </div>
-    </footer>
-
+	<nav id="footer">
+		<div class="container">
+			<div class="pull-left fnav">
+				<p>ALL RIGHTS RESERVED. COPYRIGHT © 2015</p>
+			</div>
+			<div class="pull-right fnav">
+				<ul class="footer-social">
+					<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+					<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+					<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+					<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
 </body>
-
 <script id="team-template" type="text/ractive">
-    <h2 class="section-heading" id="team">The Team<br></h2>
-    {{#team}}
-    <div class="col-sm-{{rows}} col-md-3">
-        <!-- normal -->
-        <div class="ih-item circle effect3 bottom_to_top"><a href="#">
-            <div class="img"><img src={{image}} alt="img"></div>
-            <div class="info">
-              <h3>{{name}}</h3>
-              <p>{{description}}</p>
-            </div></a></div>
-        <!-- end normal -->
-    </div>
-    {{#team}}
-</script>
+	<div class="overlay">
+		<div class="container">
+			<div class="section-title center">
+				<h2><strong>The </strong>Team</h2>
+				<div class="line">
+					<hr>
+				</div>
+			</div>
 
+			<div id="team" class="owl-carousel owl-theme row">
+				{{#team}}
+					<div class="item">
+						<div class="thumbnail">
+							<img src={{image}} alt="..." class="img-circle team-img">
+							<div class="caption">
+								<h3>{{name}}</h3>
+								<p>{{position}}</p>
+								<p>{{description}}</p>
+							</div>
+						</div>
+					</div>
+				{{/team}}
+			</div>
+		</div>
+		<a href="#tf-services" class="fa fa-angle-down page-scroll"></a>
+	</div>	
+</script>
+<script id="projects-template" type="text/ractive">
+		<div class="container">
+			<!-- Container -->
+			<div class="section-title text-center center">
+				<h2>Take a look at <strong>our projects</strong></h2>
+				<div class="line">
+					<hr>
+				</div>
+				<div class="clearfix"></div>
+				<small><em>{{description}}</em></small>
+			</div>
+			<div class="space"></div>
+
+			<div class="categories">
+
+				<ul class="cat">
+					<li class="pull-left">
+						<h4>Filter by Type:</h4></li>
+					<li class="pull-right">
+						<ol class="type">
+							<li><a href="#" data-filter="*" class="active">All</a></li>
+							{{#categories}}
+							<li><a href="#" data-filter=".{{class}}">{{name}}</a></li>
+							{{/categories}}
+						</ol>
+					</li>
+				</ul>
+				<div class="clearfix"></div>
+			</div>
+
+			<div id="lightbox" class="row">
+				{{#projects}}
+				<div class="col-sm-6 col-md-3 col-lg-3 {{category}}">
+					<div class="portfolio-item">
+						<div class="hover-bg">
+							<a href={{location}}>
+								<div class="hover-text">
+									<h4>{{logo}}</h4>
+									<small>{{branding}}</small>
+									<div class="clearfix"></div>
+									<i class="fa fa-plus"></i>
+								</div>
+								<img src="{{img}}" class="img-responsive" alt="...">
+							</a>
+						</div>
+					</div>
+				</div>
+				{{/projects}}
+			</div>
+			<a href="#tf-testimonials" class="fa fa-angle-down page-scroll"></a>
+		</div>	
+</script>
 </html>
