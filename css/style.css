@@ -39,6 +39,7 @@ p.intro{
 	margin: 12px 0 0;
 	line-height: 24px;
 	font-family: 'Open Sans', sans-serif;
+	
 }
 a{ color: #FCAC45;}
 a:hover,
@@ -51,7 +52,7 @@ a:focus{
 	border-color: #2323a0;
 	border-width: 4px;
 	width: 60px;
-	float: left;
+	float: center;
 	clear: both;
 }
 .clearfix:after {
@@ -62,6 +63,7 @@ a:focus{
      clear: both;
      height: 0;
      }
+	 
 .clearfix { display: inline-block; }
 * html .clearfix { height: 1%; }
 .clearfix { display: block; }
@@ -160,15 +162,15 @@ a.fa.fa-angle-down {
 	transition: all 0.5s;
 }
 a.fa.fa-angle-down:hover{
-	background: #fcac45;
+	background: #641cb5;
 	color: #ffffff;
-	border: 2px solid #fcac45;
+	border: 2px solid #fffba0;
 }
 /* About Section */
 #tf-about{
 	padding: 80px 0;
 	color:#fff;
-	background-color:#7816aa;
+	background-color:#13aec7;
 }
 ul.about-list{ margin: 30px 0 0 ;}
 ul.about-list li{
@@ -280,6 +282,8 @@ img.img-circle.team-img {
 /* Services Section */
 #tf-services{
 	padding: 80px 0;
+	color:#fff;
+	background:#ed3f5c;
 }
 
 .space{
@@ -288,7 +292,7 @@ img.img-circle.team-img {
 
 #tf-services i.fa {
 	font-size: 40px;
-	border: 4px solid #FCAC45;
+	border: 4px solid #fffba0;
 	width: 100px;
 	height: 100px;
 	padding: 27px 25px;
@@ -303,7 +307,7 @@ img.img-circle.team-img {
 }
 
 #tf-services .service:hover>i.fa{
-	background: #FCAC45;
+	background: #641cb5;
 	color: #ffffff;
 }
 
