@@ -1,7 +1,2 @@
-var teamData = [{"name" : "Charles Njoroge", "position" : "", "description" : "Do not seek to change what has come before. Seek to create that which has not.", "image" : "img/team/charles.jpg"}, {"name" : "Charles Njoroge","position" : "", "description" : "", "image" : "img/team/charles.jpg"}, {"name" : "Charles Njoroge", "position" : "", "description" : "", "image" : "img/team/charles.jpg"}]
-// END OF TEAM DATA
-var teamProjects = { description : "This can be a small compilation of the projects done throughout the year by us and our members. Something that when someone from the outsides comes to the site they will be able to test out and actually download some of our projects. This means that we can put some or all of our current and past projects on github and then link them here.",
-	projects : [{logo : "Logo Name", branding : "Branding", img: "img/portfolio/06.jpg", location : "#", category : "web"}]}
-// END OF TEAM PROJECTS
-var exponsors = []
+var teamData = [{"name" : "Charles Njoroge", "position" : "", "description" : "Do not seek to change what has come before. Seek to create that which has not.", "image" : "img/team/charles.jpg"}]// END OF TEAM DATA
 //END OF DOCUMENT
