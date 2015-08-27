@@ -18,11 +18,8 @@ function main() {
 		/* ===================================
 		 Show data team data
 		 ===================================== */
-		function showTeamData(teamRactive, projectRactive) {
+		function showTeamData(teamRactive) {
 			teamRactive.set({team: teamData});
-			projectRactive.set({description : teamProjects.description, 
-													categories : categories,
-												  projects : teamProjects.projects})
 		}
 		
 
@@ -65,13 +62,9 @@ function main() {
 				el: 'tf-team',
 				template: '#team-template'
 			});
-			var projectsRactive = new Ractive({
-				el: 'tf-works',
-				template: '#projects-template'
-			})
 
 			//show data for team
-			showTeamData(teamRactive, projectsRactive);
+			showTeamData(teamRactive);
 			$("#team").owlCarousel({
 
 				navigation: false, // Show next and prev buttons
@@ -88,31 +81,6 @@ function main() {
 				        [1400, 4],
 				        [1600, 4]
 				      ],
-			});
-
-			$("#clients").owlCarousel({
-
-				navigation: false, // Show next and prev buttons
-				slideSpeed: 300,
-				paginationSpeed: 400,
-				autoHeight: true,
-				itemsCustom: [
-				        [0, 1],
-				        [450, 2],
-				        [600, 2],
-				        [700, 2],
-				        [1000, 4],
-				        [1200, 5],
-				        [1400, 5],
-				        [1600, 5]
-				      ],
-			});
-
-			$("#testimonial").owlCarousel({
-				navigation: false, // Show next and prev buttons
-				slideSpeed: 300,
-				paginationSpeed: 400,
-				singleItem: true
 			});
 
 		});
