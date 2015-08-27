@@ -3,7 +3,7 @@
 
 <head>
 	<!-- Basic Page Needs
-    ================================================== -->
+	================================================== -->
 	<meta charset="utf-8">
 	<!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,7 +13,7 @@
 	<meta name="author" content="ThemeForces.com">
 
 	<!-- Favicons
-    ================================================== -->
+	================================================== -->
 <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
@@ -37,12 +37,12 @@
 	<link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
 
 	<!-- Slider
-    ================================================== -->
+	================================================== -->
 	<link href="css/owl.carousel.css" rel="stylesheet" media="screen">
 	<link href="css/owl.theme.css" rel="stylesheet" media="screen">
 
 	<!-- Stylesheet
-    ================================================== -->
+	================================================== -->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 
@@ -50,13 +50,17 @@
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400' rel='stylesheet' type='text/css'>
 
 	<script type="text/javascript" src="js/modernizr.custom.js"></script>
+	<!-- ============================================== -->
 
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<script type="text/javascript" src="js/jquery.1.11.1.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script type="text/javascript" src="js/bootstrap.js"></script>
-	<script type="text/javascript" src="js/SmoothScroll.js"></script>
+	<!-- <script type="text/javascript" src="js/SmoothScroll.js"></script> -->
+	<script type="text/javascript" src="onepage-scroll/jquery.onepage-scroll.js"></script>
+	<link href='onepage-scroll/onepage-scroll.css' rel='stylesheet' type='text/css'>
+
 	<script type="text/javascript" src="js/jquery.isotope.js"></script>
 
 	<script src="js/owl.carousel.js"></script>
@@ -65,7 +69,7 @@
 	<script src="resources/team.json"></script>
 
 	<!-- Javascripts
-    ================================================== -->
+	================================================== -->
 	<script type="text/javascript" src="js/main.js"></script>
 
 	<!-- RactiveJS -->
@@ -74,14 +78,14 @@
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 	<!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
 </head>
 
 <body>
 	<!-- Navigation
-    ==========================================-->
+	==========================================-->
 	<nav id="tf-menu" class="navbar navbar-default navbar-fixed-top">
 		<div class="container">
 			<!-- Brand and toggle get grouped for better mobile display -->
@@ -112,185 +116,196 @@
 		<!-- /.container-fluid -->
 	</nav>
 
-	<!-- Home Page
-    ==========================================-->
-	<div id="tf-home" class="text-center">
-		<div class="overlay">
-			<div class="content">
-				<img src="img/logo.png" width="370" height="370">
-				<p class="lead">Fostering <strong>community</strong>. Developing <strong>inclusiveness</strong>.</p>
-				<a href="#tf-about" class="fa fa-angle-down page-scroll"></a>
-			</div>
-		</div>
-	</div>
-
-	<!-- About Us Page
-    ==========================================-->
-	<div id="tf-about">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6">
-					<img src="img/brown_1.png" class="img-responsive">
+	<div class="scroll-main">
+		<!-- Home Page
+		==========================================-->
+		<section>
+			<!-- <div id="tf-home" class="text-center"> -->
+			<div id="tf-home" class="text-center">
+				<div class="overlay">
+					<div class="content">
+						<img src="img/logo.png" width="370" height="370">
+						<p class="lead">Fostering <strong>community</strong>. Developing <strong>inclusiveness</strong>.</p>
+						<!-- <a href="#tf-about" class="fa fa-angle-down page-scroll"></a> -->
+					</div>
 				</div>
-				<div class="col-md-6">
-					<div class="about-text">
-						<div class="section-title">
-							<h2 align="center">Mosaic+ <strong>Defined</strong></h2>
-							<hr>
-							<div class="clearfix"></div>
+			</div>
+		</section>
+
+		<!-- About Us Page
+		==========================================-->
+		<section>
+			<div id="tf-about" class="text-center">
+				<div class="container">
+					<!-- <div class="row"> -->
+						<div class="col-md-6">
+							<img src="img/brown_1.png" class="img-responsive">
 						</div>
-                            <p class="intro" align="center">
-<!--                                We strive to foster a sense of community for marginalized and underrepresented minority students within the computer science department. In particular, we hope to see more minorities and female students introduced to computer science at Brown through a community they can easily relate to and learn from. Our multi-faceted approach to tackling this problem will begin with the launch of a summer pre-orientation transition program for newly admitted URM students.-->
-                            </p>
-						<ul class="about-list">
-							<li>
-								<span class="fa fa-dot-circle-o"></span>
-								<strong>Mission</strong> - <em>To create a community </em>
-							</li>
-						</ul>
-					</div>
+						<div class="col-md-6">
+							<div class="about-text">
+								<div class="section-title">
+									<h2 align="center">Mosaic+ <strong>Defined</strong></h2>
+									<hr>
+									<div class="clearfix"></div>
+								</div>
+									<p class="intro" align="center">
+		<!--                                We strive to foster a sense of community for marginalized and underrepresented minority students within the computer science department. In particular, we hope to see more minorities and female students introduced to computer science at Brown through a community they can easily relate to and learn from. Our multi-faceted approach to tackling this problem will begin with the launch of a summer pre-orientation transition program for newly admitted URM students.-->
+									</p>
+								<ul class="about-list">
+									<li>
+										<span class="fa fa-dot-circle-o"></span>
+										<strong>Mission</strong> - <em>To create a community </em>
+									</li>
+								</ul>
+							</div>
+						</div>
+					<!-- </div> -->
 				</div>
 			</div>
-		</div>
-		
-	</div>
+		</section>
 
-	<!-- Team Page
-    ==========================================-->
-	<!-- ractive template: team-template   -->
-	<div id="tf-team" class="text-center"></div>
+		<!-- Team Page
+		==========================================-->
+		<section>
+			<!-- ractive template: team-template   -->
+			<div id="tf-team" class="text-center"></div>
+		</section>
 
-	<!-- transition Section
-    ==========================================-->
-	<div id="tf-transition" class="text-center">
-		<div class="container">
-			<div class="section-title center">
-				<h2>Transition <strong>Program </strong></h2>
-				<div class="line">
-					<hr>
-				</div>
-				<div class="clearfix"></div>
-<!--				this is the section dedicated to the transition program -->
-			</div>
-			<div class="space"></div>
-			<div class="row">
-				<div class="col-md-3 col-sm-6 service">
-					<i class="fa fa-book"></i>
-					<h4><strong>Survival Guide</strong></h4>
-					<p>
-<!--                        This will link to the survival guide that we will edit throughout the years.-->
-                    </p>
-				</div>
-
-				<div class="col-md-3 col-sm-6 service">
-					<i class="fa fa-flash"></i>
-					<h4><strong>Transition Program</strong></h4>
-					<p>
-<!--                        This will be a little information about the transition program and then this could link to something that has a pdf of the transition program for the parents/ student to look at -->
-                    </p>
-				</div>
-
-				<div class="col-md-3 col-sm-6 service">
-					<i class="fa fa-camera"></i>
-					<h4><strong>Photos</strong></h4>
-					<p>
-<!--                        This can link to photos and videos taken throughout the school year at different events that we go to including but not limited to conferences.-->
-                    </p>
-				</div>
-
-				<div class="col-md-3 col-sm-6 service">
-					<i class="fa fa-bullhorn"></i>
-					<h4><strong>Something Else?</strong></h4>
-<!--					<p> We could put another link here</p>-->
-				</div>
-			</div>
-			
-		</div>
-	</div>
-
-	<!-- mentoring Section
-    ==========================================-->
-	<div id="tf-mentoring" class="text-center">
-		<div class="overlay">
-			<div class="container">
-                <div class="section-title center">
-				<h2>Mentoring <strong>Program </strong></h2>
-				<div class="line">
-					<hr>
-				</div>
-				<div class="clearfix"></div>
-<!--				mentoring program info -->
-			</div>
-				
-			</div>
-			
-		</div>
-	</div>
-
-	<!-- connecting Section
-    ==========================================-->
-	<div id="tf-connecting" class="text-center">
-		<div class="overlay">
-			<div class="container">
-				<div class="section-title center">
-					<h2><strong>Connecting</strong> Out There</h2>
-					<div class="line">
-						<hr>
-					</div>
-				</div>
-			</div>
-			
-		</div>
-	</div>
-
-	<!-- Contact Section
-    ==========================================-->
-	<div id="tf-contact" class="text-center">
-		<div class="container">
-
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2">
-
+		<!-- Transition Program
+		==========================================-->
+		<section>
+			<div id="tf-transition" class="text-center">
+				<div class="container">
 					<div class="section-title center">
-						<h2>Feel free to <strong>contact us</strong></h2>
+						<h2>Transition <strong>Program </strong></h2>
 						<div class="line">
 							<hr>
 						</div>
 						<div class="clearfix"></div>
+		<!--				this is the section dedicated to the transition program -->
 					</div>
-					<form>
-                        <div class="form-group">
-                            <label for="exampleInputEmail1">Email address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
-                        </div>
-						<div class="form-group">
-							<label for="exampleInputEmail1">Message</label>
-							<textarea class="form-control" rows="3"></textarea>
+					<div class="space"></div>
+					<div class="row">
+						<div class="col-md-3 col-sm-6 service">
+							<i class="fa fa-book"></i>
+							<h4><strong>Survival Guide</strong></h4>
+							<p>
+		<!--                        This will link to the survival guide that we will edit throughout the years.-->
+							</p>
 						</div>
 
-						<button type="submit" class="btn tf-btn btn-default">Submit</button>
-					</form>
+						<div class="col-md-3 col-sm-6 service">
+							<i class="fa fa-flash"></i>
+							<h4><strong>Transition Program</strong></h4>
+							<p>
+		<!--                        This will be a little information about the transition program and then this could link to something that has a pdf of the transition program for the parents/ student to look at -->
+							</p>
+						</div>
 
+						<div class="col-md-3 col-sm-6 service">
+							<i class="fa fa-camera"></i>
+							<h4><strong>Photos</strong></h4>
+							<p>
+		<!--                        This can link to photos and videos taken throughout the school year at different events that we go to including but not limited to conferences.-->
+							</p>
+						</div>
+
+						<div class="col-md-3 col-sm-6 service">
+							<i class="fa fa-bullhorn"></i>
+							<h4><strong>Something Else?</strong></h4>
+		<!--					<p> We could put another link here</p>-->
+						</div>
+					</div>
+					
 				</div>
 			</div>
-		</div>
-	</div>
+		</section>
 
-	<nav id="footer">
-		<div class="container">
-			<div class="pull-left fnav">
-				<p>ALL RIGHTS RESERVED. COPYRIGHT © 2015</p>
+		<!-- Mentorship Program
+		==========================================-->
+		<section>
+			<div id="tf-mentoring" class="text-center">
+				<div class="overlay">
+					<div class="container">
+						<div class="section-title center">
+							<h2>Mentoring <strong>Program </strong></h2>
+							<div class="line">
+								<hr>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+					</div>
+				</div>
 			</div>
-			<div class="pull-right fnav">
-				<ul class="footer-social">
-					<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-					<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-					<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-				</ul>
+		</section>
+
+		<!-- Connections Section
+		==========================================-->
+		<section>
+			<div id="tf-connecting" class="text-center">
+				<div class="overlay">
+					<div class="container">
+						<div class="section-title center">
+							<h2><strong>Connecting</strong> Out There</h2>
+							<div class="line">
+								<hr>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
-		</div>
-	</nav>
+		</section>
+
+		<!-- Contact Section
+		==========================================-->
+		<section>
+			<div id="tf-contact" class="text-center">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2">
+
+							<div class="section-title center">
+								<h2>Feel free to <strong>contact us</strong></h2>
+								<div class="line">
+									<hr>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+							<form>
+								<div class="form-group">
+									<label for="exampleInputEmail1">Email address</label>
+									<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+								</div>
+								<div class="form-group">
+									<label for="exampleInputEmail1">Message</label>
+									<textarea class="form-control" rows="3"></textarea>
+								</div>
+
+								<button type="submit" class="btn tf-btn btn-default">Submit</button>
+							</form>
+						</div>
+					</div>
+				</div>
+				<div id="footer">
+					<div class="container">
+						<div class="pull-left fnav">
+							<p>ALL RIGHTS RESERVED. COPYRIGHT © 2015</p>
+						</div>
+						<div class="pull-right fnav">
+							<ul class="footer-social">
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
 </body>
+
+<!-- Ractive scripts -->
 <script id="team-template" type="text/ractive">
 	<div class="overlay">
 		<div class="container">
@@ -316,7 +331,26 @@
 				{{/team}}
 			</div>
 		</div>
-		<a href="#tf-transition" class="fa fa-angle-down page-scroll"></a>
 	</div>	
+</script>
+
+<!-- Scroll Scripts -->
+<script type="text/javascript">
+	$(".scroll-main").onepage_scroll({
+   sectionContainer: "section",     // sectionContainer accepts any kind of selector in case you don't want to use section
+   easing: "ease",                  // Easing options accepts the CSS3 easing animation such "ease", "linear", "ease-in",
+									// "ease-out", "ease-in-out", or even cubic bezier value such as "cubic-bezier(0.175, 0.885, 0.420, 1.310)"
+   animationTime: 1000,             // AnimationTime let you define how long each section takes to animate
+   pagination: true,                // You can either show or hide the pagination. Toggle true for show, false for hide.
+   updateURL: false,                // Toggle this true if you want the URL to be updated automatically when the user scroll to each page.
+   beforeMove: function(index) {},  // This option accepts a callback function. The function will be called before the page moves.
+   afterMove: function(index) {},   // This option accepts a callback function. The function will be called after the page moves.
+   loop: false,                     // You can have the page loop back to the top/bottom when the user navigates at up/down on the first/last page.
+   keyboard: true,                  // You can activate the keyboard controls
+   responsiveFallback: false,        // You can fallback to normal page scroll by defining the width of the browser in which
+									// you want the responsive fallback to be triggered. For example, set this to 600 and whenever
+									// the browser's width is less than 600, the fallback will kick in.
+   direction: "vertical"            // You can now define the direction of the One Page Scroll animation. Options available are "vertical" and "horizontal". The default value is "vertical".  
+	});
 </script>
 </html>
