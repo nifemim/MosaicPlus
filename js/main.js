@@ -8,12 +8,6 @@ function main() {
 
 	(function () {
 		'use strict';
-
-		//categories dictionary for categories page
-		var categories = [{class : "web", name : "Web Design"},
-										  {class : "photography", name : "Photography"},
-										  {class : "app", name : "Mobile App"},
-										  {class : "branding", name : "Branding"}]
 		
 		/* ===================================
 		 Show data team data
@@ -82,6 +76,9 @@ function main() {
 				        [1600, 4]
 				      ],
 			});
+            
+            //scrolling script
+            $(".scroll-main").onepage_scroll();
 
 		});
 

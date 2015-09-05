@@ -1,2 +1,43 @@
-var teamData = [{"name" : "Charles Njoroge", "position" : "", "description" : "Do not seek to change what has come before. Seek to create that which has not.", "image" : "img/team/charles.jpg"}]// END OF TEAM DATA
+var teamData = 
+[
+   {
+        "name": "Kevin Anderson",
+        "position": "Sophomore",
+        "description": "Why I join Mosaic+: I joined Mosaic+ because its members are some of the best people I met in my first year at Brown. In addition, it offers a support system, both socially and academically. that I would have liked to have had during my first year studying CS. Fun fact: I didn't have a name until I was one month old.Favorite place to eat: The Ratty, BUT the best food comes from the Blue Room. Wait until 4:00 pm though :-). Activities during free time: Listen to music and find new artists.",
+        "doYouHaveAnySuggestionsYoudForThisMosaicPlusWebsite": "Nope. All good."
+    },
+    {
+        "name": "Peter Clarke",
+        "position": "Sophomore",
+        "description": "Hey everyone! My name is Peter Clarke, and I'm from Brooklyn, NY. A few fun facts about me are that I can't stand melted cheese unless it's on pizza and that sometimes when I'm trying to relax, I listen to epic movie trailer music and some dancehall. I decided to join MOSAIC+ because I wanted to be a resource and a part of a support system for underrepresented minorities in CS. As a freshman, I often felt saddened and disgruntled because of how difficult CS was and the fact that I was one of few minorities within the department. "
+    },
+    {
+        "name": "Victoria Chavez",
+        "position": "Sophomore",
+        "description": "I've been very lucky to have a lot of help from amazing people as I've made my way into STEM. It hasn't been easy but it's definitely been easier and a great experience to be surrounded by such an amazing community of talented and caring individuals. I want to help others along the way and be able to create a difference. I've always been pasionate about STEM education and diversity; I want to help create a more equitable field.During my spare time I enjoy (binge) watching Hannibal and Criminal Minds as well as catching some ZZZs."
+    },
+    {
+        "name": "Chelse-Amoy Steele",
+        "position": "Sophomore",
+        "description": "I believe Mosaic+ stands in the unique position to positively impact a deserving target audience, and the more that we've developed Mosaic+ the more excited I am about it's future. I love that Mosaic+ is designed to be practical and bold. Also, I think that Mosaic+ is a special space for people of color within this department as having visibility of each other is one step closer to our success as a unit. But ultimately, what I love the most about this program and a huge part of the reason I joined are the people who are apart of it. Each person in this team is not only incredibly talented, but also kind and giving. It's because of their support that I made it through my first year in CS. And I know that together, we'll be able to provide that same environment to incoming URM students.",
+        "doYouHaveAnySuggestionsYoudForThisMosaicPlusWebsite": "If there's a page for our mission statement, maybe we could include a javascript slideshow that has some visual images that our PR team is in the process of creating. I think that would create a dynamic impact! "
+    },
+    {
+        "name": "Joanna Simwinga",
+        "position": "Sophomore",
+        "description": "I joined mosaic+ because having a strong and supportive community to belong to is incredibly important in life and in school. The difficulty of Brown CS and the lack of diversity in the department make a community such as Mosaic even more important. Fun fact: I live on tbe 4the floor of the Rock and eat almost exclusively at the blueroom and vdub. On the rare occasion that I'm not doing something cs related, I'm probably asleep or watching the Office.",
+        "doYouHaveAnySuggestionsYoudForThisMosaicPlusWebsite": "There should be a blog section/ something where links to relevant articles can be shared(this could also be done by a facebook page)"
+    },
+    {
+        "name": "Asha Owens",
+        "position": "Senior",
+        "description": "While studying Neuroscience and CS at Brown, I’ve often longed for a support system dedicated to the success and retention of minority students in STEM. Joining MOSAIC+ has given me the opportunity to be a part of this type of community and allowed me to facilitate that experience for incoming students. If I’m not in the CIT or the SciLi, you might catch me eating at the Blue Room or Jos, and you’ll always find me listening to music. "
+    },
+    {
+        "name": "Austin Peete",
+        "position": "Sophomore",
+        "description": "Throughout the past year, I have been trying to figure out how I could become a better influence within my community. Ideas started to pop into my head around the time I attended the Tapia 2015 Conference, my first minority tech conference. I thought I hadn’t done enough with the tools I’d gathered up to that point. However, in my time there I realized that I had just broken the surface of making a difference. The minute Mosaic+ started to come to fruition I knew that it was my chance to join the movement for diversifying the tech field. For fun, I dance, obsess over Korean culture, watch movies, and sleep. Lately, I've been getting into web app development, and I hope to blaze through a few hackathons during my semester. ",
+        "doYouHaveAnySuggestionsYoudForThisMosaicPlusWebsite": "It would be cool to have an \"Events\" page/board to display current or upcoming events that are geared towards networking, self-improvement, professional development, etc. "
+    }
+]// END OF TEAM DATA
 //END OF DOCUMENT
